@@ -1,8 +1,8 @@
-File Architecture for the Knowledge Ecosystem
+# File Architecture for the Knowledge Ecosystem
 
 This document defines where Markdown, YAML, and JSON files belong within the knowledge ecosystem repository. It provides a clear, stable reference for future sprints as the system evolves from human‑first reflection to structured governance and eventually to machine‑readable analytics.
 
-1. Overview
+## 1. Overview
 
 The repository uses three complementary file formats, each serving a distinct purpose:
 
@@ -14,7 +14,7 @@ JSON: Machine‑readable analytics and telemetry
 
 Together, they form a layered architecture that supports Takt‑aligned development across multiple sprints.
 
-2. Markdown Layer — Human‑First Thinking
+## 2. Markdown Layer — Human‑First Thinking
 
 Markdown files are used for:
 
@@ -50,7 +50,7 @@ boundary-governance-checklist.md
 
 Markdown is the thinking and reflection layer.
 
-3. YAML Layer — Governance and Structure
+## 3. YAML Layer — Governance and Structure
 
 YAML files provide structured, human‑readable metadata for:
 
@@ -80,7 +80,7 @@ boundary-governance.yaml
 
 YAML is the governance and configuration layer.
 
-4. JSON Layer — Analytics and Machine‑Readable Data
+## 4. JSON Layer — Analytics and Machine‑Readable Data
 
 JSON files are used for:
 
@@ -108,7 +108,7 @@ takt-adherence.json
 
 JSON is the analytics and automation layer.
 
-5. Evolution Across Sprints
+## 5. Evolution Across Sprints
 
 The ecosystem evolves through three levels:
 
@@ -138,7 +138,7 @@ Automated insights
 
 This staged evolution ensures sustainable Takt and avoids premature complexity.
 
-6. Summary Diagram
+## 6. Summary Diagram
 
 knowledge-ecosystem/
 │
