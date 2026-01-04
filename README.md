@@ -1,6 +1,6 @@
 # Knowledge Ecosystem
 
-A governance‑grade, Takt‑aligned knowledge system designed to support sustainable professional practice, structured reflection, telemetry‑driven insight generation, and long‑horizon strategic development.
+This is a governance‑grade, Takt‑aligned knowledge system designed to support sustainable professional practice, structured reflection, telemetry‑driven insight generation, and long‑horizon strategic development.
 
 This repository serves as the canonical source of truth for:
 - Frameworks and conceptual models  
