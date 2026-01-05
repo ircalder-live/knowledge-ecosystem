@@ -1,3 +1,4 @@
+<!-- This framework explains how conceptual navigation guides system design. -->
 
 # Navigation Analogy for Governance and GitHub Issues
 
