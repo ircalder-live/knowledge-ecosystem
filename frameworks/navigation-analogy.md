@@ -101,3 +101,5 @@ Governance (Course Correction)
 Lift → Altitude → Momentum
 This navigation analogy provides a durable mental model for using GitHub Issues as governance instruments, enabling disciplined, data‑driven project management across all future sprints.
 
+## See also
+- [Operational Cadence](operational-cadence.md)
