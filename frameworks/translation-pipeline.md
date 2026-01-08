@@ -44,3 +44,16 @@ Explain how related_terms supports conceptual navigation across languages.
 - schema-first
 - contributor-friendly
 - multilingual sovereignty
+
+## Pages vs Docs: Architectural Roles
+
+The knowledge-ecosystem uses two distinct surfaces:
+
+### /pages/
+Contains conceptual knowledge artifacts, frameworks, and domain content. These files represent the knowledge surface of the project and are intended for readers, learners, and practitioners.
+
+### /docs/
+Contains contributor-facing documentation, governance notes, and architectural explanations. These files describe how the system works and how contributors should interact with it.
+
+### Workflow
+Drafting occurs in Copilot Pages, then finalized content is committed to /docs or /pages depending on its role.
