@@ -1,0 +1,18 @@
+# Batch ingestion schema for glossary terms
+# Each entry represents one bilingual glossary term
+
+- id: example-id
+  en:
+    term: Example Term
+    definition: >
+      English definition text...
+    pronunciation: "example"
+  zh:
+    term: 示例术语
+    definition: >
+      中文定义文本...
+    pronunciation: "shì lì"
+  topic: example-topic
+  tags:
+    - tag1
+    - tag2
