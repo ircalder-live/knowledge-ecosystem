@@ -1,0 +1,1375 @@
+- id: supervised-learning
+  en:
+    term: Supervised Learning
+    definition: >
+      A type of machine learning where the model is trained on labeled data
+      to learn a mapping from inputs to outputs.
+    pronunciation: "SOO-per-vized LER-ning"
+  zh:
+    term: 监督学习
+    definition: >
+      监督学习是一种机器学习方法，模型在带标签的数据上进行训练，
+      以学习从输入到输出的映射关系。
+    pronunciation: "jiān dū xué xí"
+  topic: aiml
+  tags:
+    - machine learning
+    - labeled data
+    - prediction
+
+- id: unsupervised-learning
+  en:
+    term: Unsupervised Learning
+    definition: >
+      A machine learning approach where the model identifies patterns in data
+      without labeled outcomes.
+    pronunciation: "un-SOO-per-vized LER-ning"
+  zh:
+    term: 无监督学习
+    definition: >
+      无监督学习是一种机器学习方法，模型在没有标签的数据中自动发现模式和结构。
+    pronunciation: "wú jiān dū xué xí"
+  topic: aiml
+  tags:
+    - clustering
+    - dimensionality reduction
+    - pattern discovery
+
+- id: classification
+  en:
+    term: Classification
+    definition: >
+      A supervised learning task where the goal is to assign discrete labels
+      to input data.
+    pronunciation: "class-ih-fih-KAY-shun"
+  zh:
+    term: 分类
+    definition: >
+      分类是一种监督学习任务，其目标是为输入数据分配离散的类别标签。
+    pronunciation: "fēn lèi"
+  topic: aiml
+  tags:
+    - supervised learning
+    - discrete output
+    - prediction
+
+- id: regression
+  en:
+    term: Regression
+    definition: >
+      A supervised learning task where the goal is to predict continuous
+      numerical values.
+    pronunciation: "ree-GRESH-un"
+  zh:
+    term: 回归
+    definition: >
+      回归是一种监督学习任务，其目标是预测连续的数值输出。
+    pronunciation: "huí guī"
+  topic: aiml
+  tags:
+    - supervised learning
+    - continuous output
+    - prediction
+
+- id: clustering
+  en:
+    term: Clustering
+    definition: >
+      An unsupervised learning technique that groups data points into clusters
+      based on similarity.
+    pronunciation: "KLUS-ter-ing"
+  zh:
+    term: 聚类
+    definition: >
+      聚类是一种无监督学习技术，通过相似性将数据点分组为不同簇。
+    pronunciation: "jù lèi"
+  topic: aiml
+  tags:
+    - unsupervised learning
+    - grouping
+    - similarity
+
+- id: data-cleaning
+  en:
+    term: Data Cleaning
+    definition: >
+      The process of detecting and correcting or removing corrupt or inaccurate
+      records from a dataset to improve data quality.
+    pronunciation: "DAY-tuh KLEE-ning"
+  zh:
+    term: 数据清洗
+    definition: >
+      数据清洗是检测并纠正或删除数据集中损坏或不准确记录的过程，以提高数据质量。
+    pronunciation: "shù jù qīng xǐ"
+  topic: aiml
+  tags:
+    - data preprocessing
+    - quality assurance
+    - missing values
+
+- id: feature-scaling
+  en:
+    term: Feature Scaling
+    definition: >
+      A technique used to normalize the range of independent variables or
+      features to ensure uniformity and improve model performance.
+    pronunciation: "FEE-chur SKAY-ling"
+  zh:
+    term: 特征缩放
+    definition: >
+      特征缩放是一种用于规范化特征范围的技术，以确保一致性并提升模型性能。
+    pronunciation: "tè zhēng suō fàng"
+  topic: aiml
+  tags:
+    - normalization
+    - standardization
+    - preprocessing
+
+- id: dimensionality-reduction
+  en:
+    term: Dimensionality Reduction
+    definition: >
+      The process of reducing the number of input variables in a dataset to
+      simplify models and reduce computational cost.
+    pronunciation: "dye-MEN-shun-AL-ih-tee ree-DUK-shun"
+  zh:
+    term: 降维
+    definition: >
+      降维是减少数据集输入变量数量的过程，以简化模型并降低计算成本。
+    pronunciation: "jiàng wéi"
+  topic: aiml
+  tags:
+    - feature engineering
+    - PCA
+    - data compression
+
+- id: encoding-categorical-variables
+  en:
+    term: Encoding Categorical Variables
+    definition: >
+      The process of converting categorical data into numerical format so that
+      it can be used in machine learning models.
+    pronunciation: "en-KOH-ding KAT-eh-GOR-ih-kul VAY-ree-uh-buls"
+  zh:
+    term: 类别变量编码
+    definition: >
+      类别变量编码是将分类数据转换为数值格式的过程，以便用于机器学习模型。
+    pronunciation: "lèi bié biàn liàng biān mǎ"
+  topic: aiml
+  tags:
+    - categorical data
+    - preprocessing
+    - encoding
+
+- id: feature-extraction
+  en:
+    term: Feature Extraction
+    definition: >
+      The process of transforming raw data into informative features that can
+      be used for model training.
+    pronunciation: "FEE-chur ex-TRAK-shun"
+  zh:
+    term: 特征提取
+    definition: >
+      特征提取是将原始数据转换为可用于模型训练的有用特征的过程。
+    pronunciation: "tè zhēng tí qǔ"
+  topic: aiml
+  tags:
+    - feature engineering
+    - preprocessing
+    - transformation
+
+- id: cross-validation
+  en:
+    term: Cross-Validation
+    definition: >
+      A model evaluation technique that partitions the dataset into multiple
+      subsets, training on some and validating on others.
+    pronunciation: "kraws VAL-ih-DAY-shun"
+  zh:
+    term: 交叉验证
+    definition: >
+      交叉验证是一种模型评估技术，将数据集划分为多个子集，在部分子集上训练，
+      在其他子集上验证。
+    pronunciation: "jiāo chā yàn zhèng"
+  topic: aiml
+  tags:
+    - model evaluation
+    - validation
+    - resampling
+
+- id: confusion-matrix
+  en:
+    term: Confusion Matrix
+    definition: >
+      A table used to describe the performance of a classification model by
+      showing counts of true positives, false positives, true negatives, and
+      false negatives.
+    pronunciation: "kun-FYOO-zhun MAY-triks"
+  zh:
+    term: 混淆矩阵
+    definition: >
+      混淆矩阵用于描述分类模型的性能，显示真正例、假正例、真负例和假负例的数量。
+    pronunciation: "hùn xiáo jǔ zhèn"
+  topic: aiml
+  tags:
+    - classification
+    - evaluation
+    - metrics
+
+- id: precision
+  en:
+    term: Precision
+    definition: >
+      The ratio of true positive predictions to the total number of positive
+      predictions made by the model.
+    pronunciation: "pre-SIH-zhun"
+  zh:
+    term: 精确率
+    definition: >
+      精确率是模型预测为正类的样本中，真正例所占的比例。
+    pronunciation: "jīng què lǜ"
+  topic: aiml
+  tags:
+    - classification
+    - metrics
+    - evaluation
+
+- id: recall
+  en:
+    term: Recall
+    definition: >
+      The ratio of true positive predictions to the total number of actual
+      positive instances.
+    pronunciation: "REE-kawl"
+  zh:
+    term: 召回率
+    definition: >
+      召回率是所有实际正类样本中，被模型正确识别的比例。
+    pronunciation: "zhào huí lǜ"
+  topic: aiml
+  tags:
+    - classification
+    - metrics
+    - evaluation
+
+- id: f1-score
+  en:
+    term: F1 Score
+    definition: >
+      The harmonic mean of precision and recall, balancing both concerns in
+      classification tasks.
+    pronunciation: "EFF-wun skor"
+  zh:
+    term: F1 分数
+    definition: >
+      F1 分数是精确率和召回率的调和平均，用于平衡分类任务中的两者。
+    pronunciation: "F1 fēn shù"
+  topic: aiml
+  tags:
+    - classification
+    - metrics
+    - evaluation
+
+- id: hyperparameter-tuning
+  en:
+    term: Hyperparameter Tuning
+    definition: >
+      The process of optimizing configuration parameters that are not learned
+      during training but affect model performance.
+    pronunciation: "HY-per-PAR-uh-mee-ter TOO-ning"
+  zh:
+    term: 超参数调优
+    definition: >
+      超参数调优是优化训练过程中未学习但会影响模型性能的配置参数的过程。
+    pronunciation: "chāo cān shù tiáo yōu"
+  topic: aiml
+  tags:
+    - optimization
+    - model tuning
+    - hyperparameters
+
+- id: grid-search
+  en:
+    term: Grid Search
+    definition: >
+      An exhaustive search method that evaluates all combinations of
+      hyperparameter values in a specified grid.
+    pronunciation: "grid SIRCH"
+  zh:
+    term: 网格搜索
+    definition: >
+      网格搜索是一种穷举方法，评估指定网格中所有超参数组合。
+    pronunciation: "wǎng gé sōu suǒ"
+  topic: aiml
+  tags:
+    - hyperparameter tuning
+    - grid search
+    - model selection
+
+- id: random-search
+  en:
+    term: Random Search
+    definition: >
+      A hyperparameter optimization technique that samples random combinations
+      of parameters from a predefined distribution.
+    pronunciation: "RAN-dum SIRCH"
+  zh:
+    term: 随机搜索
+    definition: >
+      随机搜索是一种超参数优化技术，从预定义分布中随机采样参数组合。
+    pronunciation: "suí jī sōu suǒ"
+  topic: aiml
+  tags:
+    - hyperparameter tuning
+    - random sampling
+    - optimization
+
+- id: bayesian-optimization
+  en:
+    term: Bayesian Optimization
+    definition: >
+      An optimization technique that builds a probabilistic model of the
+      objective function and uses it to select promising hyperparameters.
+    pronunciation: "BAY-zee-un op-tih-mih-ZAY-shun"
+  zh:
+    term: 贝叶斯优化
+    definition: >
+      贝叶斯优化通过构建目标函数的概率模型来选择最有前景的超参数。
+    pronunciation: "bèi yè sī yōu huà"
+  topic: aiml
+  tags:
+    - hyperparameter tuning
+    - bayesian methods
+    - optimization
+
+- id: early-stopping
+  en:
+    term: Early Stopping
+    definition: >
+      A regularization technique that stops training when validation
+      performance begins to degrade.
+    pronunciation: "ER-lee STOP-ing"
+  zh:
+    term: 提前停止
+    definition: >
+      提前停止是一种正则化技术，当验证集性能开始下降时停止训练。
+    pronunciation: "tí qián tíng zhǐ"
+  topic: aiml
+  tags:
+    - regularization
+    - model tuning
+    - overfitting prevention
+
+- id: artificial-neural-network
+  en:
+    term: Artificial Neural Network
+    definition: >
+      A computational model inspired by biological neural networks, consisting
+      of interconnected nodes (neurons) organized in layers.
+    pronunciation: "AR-tih-FISH-ul NYOO-rul NET-work"
+  zh:
+    term: 人工神经网络
+    definition: >
+      人工神经网络是一种受生物神经网络启发的计算模型，由多层互相连接的节点（神经元）组成。
+    pronunciation: "rén gōng shén jīng wǎng luò"
+  topic: aiml
+  tags:
+    - deep learning
+    - neural networks
+    - machine learning
+
+- id: activation-function
+  en:
+    term: Activation Function
+    definition: >
+      A mathematical function applied to a neuron's output to introduce
+      non-linearity, enabling the model to learn complex patterns.
+    pronunciation: "ak-tih-VAY-shun FUNK-shun"
+  zh:
+    term: 激活函数
+    definition: >
+      激活函数是应用于神经元输出的数学函数，用于引入非线性，使模型能够学习复杂模式。
+    pronunciation: "jī huó hán shù"
+  topic: aiml
+  tags:
+    - neural networks
+    - non-linearity
+    - deep learning
+
+- id: backpropagation
+  en:
+    term: Backpropagation
+    definition: >
+      An algorithm used to train neural networks by computing gradients of the
+      loss function and updating weights via gradient descent.
+    pronunciation: "bak-PROP-uh-GAY-shun"
+  zh:
+    term: 反向传播
+    definition: >
+      反向传播是一种用于训练神经网络的算法，通过计算损失函数的梯度并使用梯度下降更新权重。
+    pronunciation: "fǎn xiàng chuán bō"
+  topic: aiml
+  tags:
+    - training
+    - optimization
+    - neural networks
+
+- id: convolutional-neural-network
+  en:
+    term: Convolutional Neural Network
+    definition: >
+      A deep neural network designed to process grid-structured data such as
+      images, using convolutional layers to extract spatial features.
+    pronunciation: "kon-vo-LOO-shun-ul NYOO-rul NET-work"
+  zh:
+    term: 卷积神经网络
+    definition: >
+      卷积神经网络是一种用于处理网格结构数据（如图像）的深度神经网络，
+      通过卷积层提取空间特征。
+    pronunciation: "juǎn jī shén jīng wǎng luò"
+  topic: aiml
+  tags:
+    - deep learning
+    - computer vision
+    - CNN
+
+- id: recurrent-neural-network
+  en:
+    term: Recurrent Neural Network
+    definition: >
+      A neural network where connections form directed cycles, enabling the
+      modeling of sequential data.
+    pronunciation: "ree-KUR-ent NYOO-rul NET-work"
+  zh:
+    term: 循环神经网络
+    definition: >
+      循环神经网络是一种连接形成有向循环的神经网络，用于建模序列数据。
+    pronunciation: "xún huán shén jīng wǎng luò"
+  topic: aiml
+  tags:
+    - sequence modeling
+    - RNN
+    - deep learning
+
+- id: model-deployment
+  en:
+    term: Model Deployment
+    definition: >
+      The process of integrating a trained machine learning model into a
+      production environment for real-world predictions.
+    pronunciation: "MAH-dul dee-PLOY-ment"
+  zh:
+    term: 模型部署
+    definition: >
+      模型部署是将训练好的机器学习模型集成到生产环境中以进行实际预测的过程。
+    pronunciation: "mó xíng bù shǔ"
+  topic: aiml
+  tags:
+    - deployment
+    - production
+    - ML lifecycle
+
+- id: model-serving
+  en:
+    term: Model Serving
+    definition: >
+      The infrastructure and tools used to host and deliver machine learning
+      models for inference in production.
+    pronunciation: "MAH-dul SIRV-ing"
+  zh:
+    term: 模型服务
+    definition: >
+      模型服务是用于在生产环境中托管和提供机器学习模型推理的基础设施和工具。
+    pronunciation: "mó xíng fú wù"
+  topic: aiml
+  tags:
+    - deployment
+    - inference
+    - scalability
+
+- id: monitoring
+  en:
+    term: Monitoring
+    definition: >
+      The practice of tracking model performance and system metrics in
+      production to detect issues such as data drift or latency.
+    pronunciation: "MON-ih-ter-ing"
+  zh:
+    term: 监控
+    definition: >
+      监控是在生产环境中跟踪模型性能和系统指标的实践，用于检测数据漂移或延迟等问题。
+    pronunciation: "jiān kòng"
+  topic: aiml
+  tags:
+    - observability
+    - performance
+    - ML operations
+
+- id: ab-testing
+  en:
+    term: A/B Testing
+    definition: >
+      An experimental technique comparing two versions of a model or system by
+      exposing users to each and measuring performance differences.
+    pronunciation: "A-B TES-ting"
+  zh:
+    term: A/B 测试
+    definition: >
+      A/B 测试是一种实验技术，通过让用户接触两个版本的模型或系统并测量性能差异来进行比较。
+    pronunciation: "A B cè shì"
+  topic: aiml
+  tags:
+    - experimentation
+    - evaluation
+    - deployment
+
+- id: rollback
+  en:
+    term: Rollback
+    definition: >
+      The process of reverting to a previous model version or system state in
+      response to performance degradation or failure.
+    pronunciation: "ROLE-bak"
+  zh:
+    term: 回滚
+    definition: >
+      回滚是在性能下降或系统故障时恢复到先前模型版本或系统状态的过程。
+    pronunciation: "huí gǔn"
+  topic: aiml
+  tags:
+    - deployment
+    - reliability
+    - version control
+
+- id: concept-drift
+  en:
+    term: Concept Drift
+    definition: >
+      A phenomenon where the statistical properties of the target variable
+      change over time, affecting model performance.
+    pronunciation: "KON-sept drift"
+  zh:
+    term: 概念漂移
+    definition: >
+      概念漂移是指目标变量的统计特性随时间变化，从而影响模型性能的现象。
+    pronunciation: "gài niàn piāo yí"
+  topic: aiml
+  tags:
+    - stream learning
+    - non-stationarity
+    - adaptation
+
+- id: temporal-dependency
+  en:
+    term: Temporal Dependency
+    definition: >
+      The relationship between data points across time, where past values
+      influence future outcomes.
+    pronunciation: "TEM-por-ul de-PEN-den-see"
+  zh:
+    term: 时间依赖性
+    definition: >
+      时间依赖性指数据点在时间上的相互关系，其中过去的数值会影响未来的结果。
+    pronunciation: "shí jiān yī lài xìng"
+  topic: aiml
+  tags:
+    - sequence modeling
+    - time series
+    - stream learning
+
+- id: replay-methods
+  en:
+    term: Replay Methods
+    definition: >
+      Techniques in continual learning that store and replay past data to
+      mitigate forgetting and improve stability.
+    pronunciation: "REE-play METH-udz"
+  zh:
+    term: 重放方法
+    definition: >
+      重放方法是持续学习中的技术，通过存储和重放过去的数据来减轻遗忘并提高稳定性。
+    pronunciation: "chóng fàng fāng fǎ"
+  topic: aiml
+  tags:
+    - continual learning
+    - memory
+    - rehearsal
+
+- id: regularization-methods
+  en:
+    term: Regularization Methods
+    definition: >
+      Approaches that constrain model updates to preserve previously learned
+      knowledge during continual learning.
+    pronunciation: "REG-yoo-ler-ih-ZAY-shun METH-udz"
+  zh:
+    term: 正则化方法
+    definition: >
+      正则化方法是在持续学习中限制模型更新的技术，以保留先前学习的知识。
+    pronunciation: "zhèng zé huà fāng fǎ"
+  topic: aiml
+  tags:
+    - continual learning
+    - stability
+    - regularization
+
+- id: isolation-methods
+  en:
+    term: Isolation Methods
+    definition: >
+      Strategies that allocate separate model components or parameters for
+      different tasks to avoid interference.
+    pronunciation: "EYE-so-LAY-shun METH-udz"
+  zh:
+    term: 隔离方法
+    definition: >
+      隔离方法是为不同任务分配独立模型组件或参数的策略，以避免相互干扰。
+    pronunciation: "gé lí fāng fǎ"
+  topic: aiml
+  tags:
+    - continual learning
+    - modularity
+    - task separation
+
+- id: symbolic-regression
+  en:
+    term: Symbolic Regression
+    definition: >
+      A type of regression analysis that searches for mathematical expressions
+      that best fit a dataset using symbolic representations.
+    pronunciation: "sim-BOL-ik ree-GRESH-un"
+  zh:
+    term: 符号回归
+    definition: >
+      符号回归是一种回归分析方法，通过符号表达式搜索最适合数据集的数学模型。
+    pronunciation: "fú hào huí guī"
+  topic: aiml
+  tags:
+    - symbolic AI
+    - regression
+    - genetic programming
+
+- id: genetic-programming
+  en:
+    term: Genetic Programming
+    definition: >
+      An evolutionary algorithm-based methodology that evolves computer
+      programs to solve problems by mimicking natural selection.
+    pronunciation: "juh-NET-ik PRO-gram-ing"
+  zh:
+    term: 遗传程序设计
+    definition: >
+      遗传程序设计是一种基于进化算法的方法，通过模拟自然选择来进化计算机程序以解决问题。
+    pronunciation: "yí chuán chéng xù shè jì"
+  topic: aiml
+  tags:
+    - evolutionary algorithms
+    - symbolic AI
+    - optimization
+
+- id: randomized-algorithms
+  en:
+    term: Randomized Algorithms
+    definition: >
+      Algorithms that use random numbers to influence their behavior, often
+      yielding faster or simpler solutions.
+    pronunciation: "RAN-duh-mized AL-goh-rith-ums"
+  zh:
+    term: 随机算法
+    definition: >
+      随机算法使用随机数来影响其行为，通常能提供更快或更简单的解决方案。
+    pronunciation: "suí jī suàn fǎ"
+  topic: aiml
+  tags:
+    - probabilistic algorithms
+    - complexity
+    - optimization
+
+- id: computational-complexity
+  en:
+    term: Computational Complexity
+    definition: >
+      A field of study analyzing the resources required for algorithms to
+      solve problems, such as time and space.
+    pronunciation: "kom-pyoo-TAY-shun-ul kom-PLEX-ih-tee"
+  zh:
+    term: 计算复杂性
+    definition: >
+      计算复杂性是研究算法解决问题所需资源（如时间和空间）的领域。
+    pronunciation: "jì suàn fù zá xìng"
+  topic: aiml
+  tags:
+    - theoretical computer science
+    - efficiency
+    - algorithms
+
+- id: symbolic-ai
+  en:
+    term: Symbolic AI
+    definition: >
+      An approach to artificial intelligence that uses high-level symbols and
+      rules to represent knowledge and reasoning.
+    pronunciation: "sim-BOL-ik A-I"
+  zh:
+    term: 符号人工智能
+    definition: >
+      符号人工智能是一种使用高级符号和规则来表示知识和推理的人工智能方法。
+    pronunciation: "fú hào rén gōng zhì néng"
+  topic: aiml
+  tags:
+    - knowledge_representation
+    - logic
+    - expert systems
+
+- id: skipgram
+  en:
+    term: Skipgram
+    definition: >
+      A Word2Vec architecture that learns word embeddings by predicting
+      surrounding context words given a target word.
+    pronunciation: "SKIP-gram"
+  zh:
+    term: Skipgram 模型
+    definition: >
+      Skipgram 是一种 Word2Vec 架构，通过根据目标词预测上下文词来学习词向量。
+    pronunciation: "Skipgram mó xíng"
+  topic: aiml
+  tags:
+    - natural_language_processing
+    - word_embeddings
+    - neural networks
+    - representation_learning
+
+- id: word2vec
+  en:
+    term: Word2Vec
+    definition: >
+      A neural embedding model that learns vector representations of words
+      based on their context in large corpora.
+    pronunciation: "word-too-VEK"
+  zh:
+    term: Word2Vec
+    definition: >
+      Word2Vec 是一种神经嵌入模型，通过大规模语料库中的上下文学习词向量表示。
+    pronunciation: "Word2Vec"
+  topic: aiml
+  tags:
+    - natural_language_processing
+    - word embedding
+    - neural_networks
+    - representation_learning
+
+- id: distribution-hypothesis
+  en:
+    term: Distribution Hypothesis
+    definition: >
+      The idea that words appearing in similar contexts tend to have similar
+      meanings, forming the basis of many NLP techniques.
+    pronunciation: "dis-TRIB-yoo-shun hy-POTH-uh-sis"
+  zh:
+    term: 分布假设
+    definition: >
+      分布假设认为出现在相似上下文中的词往往具有相似的含义，是许多 NLP 技术的基础。
+    pronunciation: "fēn bù jiǎ shè"
+  topic: aiml
+  tags:
+    - natural_language_processing
+    - semantics
+    - distributional_semantics
+    - representation_learning
+
+- id: text-representation
+  en:
+    term: Text Representation
+    definition: >
+      The process of converting raw text into numerical formats suitable for
+      machine learning, including bag-of-words, TF-IDF, and embeddings.
+    pronunciation: "tekst rep-reh-ZEN-tay-shun"
+  zh:
+    term: 文本表示
+    definition: >
+      文本表示是将原始文本转换为适合机器学习的数值格式的过程，包括词袋模型、
+      TF-IDF 和词嵌入等方法。
+    pronunciation: "wén běn biǎo shì"
+  topic: aiml
+  tags:
+    - natural_language_processing
+    - text_encoding
+    - feature_extraction
+    - representation_learning
+
+- id: word-representation
+  en:
+    term: Word Representation
+    definition: >
+      The way words are encoded for computational models, ranging from
+      one-hot encoding to dense embeddings that capture semantic relations.
+    pronunciation: "wurd rep-reh-ZEN-tay-shun"
+  zh:
+    term: 词表示
+    definition: >
+      词表示是将词编码为计算模型可用形式的方式，从独热编码到能够捕捉语义关系的
+      稠密词向量。
+    pronunciation: "cí biǎo shì"
+  topic: aiml
+  tags:
+    - natural_language_processing
+    - representation_learning
+    - word_embedding
+    - semantic_similarity
+
+- id: simulated-annealing
+  en:
+    term: Simulated Annealing
+    definition: >
+      A probabilistic optimization technique inspired by the annealing process
+      in metallurgy, accepting worse solutions early to avoid local optima.
+    pronunciation: "SIM-yoo-lay-ted uh-NEEL-ing"
+  zh:
+    term: 模拟退火
+    definition: >
+      模拟退火是一种受金属退火过程启发的概率优化技术，通过在早期接受较差解来
+      避免陷入局部最优。
+    pronunciation: "mó nǐ tuì huǒ"
+  topic: aiml
+  tags:
+    - optimization
+    - metaheuristic
+    - probabilistic_algorithm
+    - search
+
+- id: monte-carlo-algorithm
+  en:
+    term: Monte Carlo Algorithm
+    definition: >
+      A randomized algorithm that runs in fixed time and may yield incorrect
+      results with some probability, reducible through repetition.
+    pronunciation: "MON-tee KAR-lo AL-guh-rith-um"
+  zh:
+    term: 蒙特卡洛算法
+    definition: >
+      蒙特卡洛算法是一种随机算法，在固定时间内运行，并可能以一定概率产生错误结果，
+      可通过重复降低误差。
+    pronunciation: "méng tè kǎ luò suàn fǎ"
+  topic: aiml
+  tags:
+    - randomized_algorithm
+    - probabilistic
+    - algorithm_design
+
+- id: las-vegas-algorithm
+  en:
+    term: Las Vegas Algorithm
+    definition: >
+      A randomized algorithm that always returns the correct result (or failure)
+      but whose runtime is probabilistic.
+    pronunciation: "LAS VAY-gus AL-guh-rith-um"
+  zh:
+    term: 拉斯维加斯算法
+    definition: >
+      拉斯维加斯算法是一种随机算法，总能返回正确结果（或明确失败），但运行时间具有随机性。
+    pronunciation: "lā sī wéi jiā sī suàn fǎ"
+  topic: aiml
+  tags:
+    - randomized_algorithm
+    - probabilistic
+    - algorithm_design
+
+- id: pseudocode
+  en:
+    term: Pseudocode
+    definition: >
+      A human-readable, high-level description of an algorithm combining natural
+      language with programming-like structures.
+    pronunciation: "SOO-doh-kohd"
+  zh:
+    term: 伪代码
+    definition: >
+      伪代码是一种可读性强的算法描述方式，结合自然语言和类似编程结构的表达。
+    pronunciation: "wěi dài mǎ"
+  topic: aiml
+  tags:
+    - algorithm
+    - documentation
+    - algorithm_design
+    - programming
+
+- id: continual-learning
+  en:
+    term: Continual Learning
+    definition: >
+      The ability of a system to learn from a continuous stream of data while
+      retaining previously acquired knowledge.
+    pronunciation: "kun-TIN-yoo-ul LER-ning"
+  zh:
+    term: 持续学习
+    definition: >
+      持续学习指系统能够从连续数据流中不断学习，同时保留先前获得的知识。
+    pronunciation: "chí xù xué xí"
+  topic: aiml
+  tags:
+    - machine_learning
+    - lifelong_learning
+    - online_learning
+    - catastrophic_forgetting
+    - adaptive_models
+
+- id: random-forest
+  en:
+    term: Random Forest
+    definition: >
+      An ensemble learning algorithm that builds multiple decision trees and
+      aggregates their predictions to improve robustness and accuracy.
+    pronunciation: "RAN-dum FOR-est"
+  zh:
+    term: 随机森林
+    definition: >
+      随机森林是一种集成学习算法，通过构建多个决策树并聚合其预测来提高鲁棒性和准确性。
+    pronunciation: "suí jī sēn lín"
+  topic: aiml
+  tags:
+    - machine_learning
+
+- id: adaptive-random-forest-arf
+  en:
+    term: Adaptive Random Forest (ARF)
+    definition: >
+      An ensemble method for evolving data streams, incorporating drift
+      detection and adaptive tree replacement.
+    pronunciation: "uh-DAP-tiv RAN-dum FOR-est"
+  zh:
+    term: 自适应随机森林
+    definition: >
+      自适应随机森林是一种用于演化数据流的集成方法，包含漂移检测和自适应树替换机制。
+    pronunciation: "zì shì yìng suí jī sēn lín"
+  topic: aiml
+  tags:
+    - machine_learning
+    - stream_learning
+    - ensemble_learning
+    - concept_drift
+    - adaptive_models
+
+- id: ensembles
+  en:
+    term: Ensembles
+    definition: >
+      A collection of models whose predictions are combined to improve accuracy,
+      robustness, and generalization.
+    pronunciation: "on-SOM-bulls"
+  zh:
+    term: 集成模型
+    definition: >
+      集成模型是多个模型的组合，通过聚合预测来提高准确性、鲁棒性和泛化能力。
+    pronunciation: "jí chéng mó xíng"
+  topic: aiml
+  tags:
+    - machine_learning
+    - ensemble_learning
+    - model_combination
+    - classification
+    - regression
+
+- id: naive-bayes
+  en:
+    term: Naive Bayes
+    definition: >
+      A family of probabilistic classifiers based on Bayes’ Theorem, assuming
+      strong independence between features.
+    pronunciation: "nah-EEV BAYZ"
+  zh:
+    term: 朴素贝叶斯
+    definition: >
+      朴素贝叶斯是一类基于贝叶斯定理的概率分类器，假设特征之间相互独立。
+    pronunciation: "pǔ sù bèi yè sī"
+  topic: aiml
+  tags:
+    - machine_learning
+
+- id: decision-tree
+  en:
+    term: Decision Tree
+    definition: >
+      A supervised learning model that represents decisions and consequences
+      using a tree-like structure.
+    pronunciation: "dih-SIH-zhun TREE"
+  zh:
+    term: 决策树
+    definition: >
+      决策树是一种监督学习模型，通过树状结构表示决策及其可能结果。
+    pronunciation: "jué cè shù"
+  topic: aiml
+  tags:
+    - machine_learning
+    - classification
+    - regression
+    - tree_model
+    - interpretable_model
+
+- id: k-nearest-neighbors-k-nn
+  en:
+    term: k-Nearest Neighbors (k-NN)
+    definition: >
+      A non-parametric, instance-based learning algorithm that predicts labels
+      based on the k closest training examples.
+    pronunciation: "kay NEE-rest NAY-bers"
+  zh:
+    term: k 近邻算法
+    definition: >
+      k 近邻是一种非参数、基于实例的学习算法，通过寻找距离最近的 k 个训练样本来进行预测。
+    pronunciation: "k jìn lín suàn fǎ"
+  topic: aiml
+  tags:
+    - machine_learning
+    - classification
+    - regression
+    - instance_based_learning
+    - non_parametric
+
+- id: adaptive-machine-learning-adaptive-ml
+  en:
+    term: Adaptive Machine Learning (Adaptive ML)
+    definition: >
+      Systems that dynamically update their models in response to new or
+      changing data without requiring explicit retraining on static datasets.
+    pronunciation: "uh-DAP-tiv muh-SHEEN LER-ning"
+  zh:
+    term: 自适应机器学习
+    definition: >
+      自适应机器学习指系统能够根据新的或变化的数据动态更新模型，而无需在静态数据集上重新训练。
+    pronunciation: "zì shì yìng jī qì xué xí"
+  topic: aiml
+  tags:
+    - machine_learning
+    - online_learning
+    - concept_drift
+    - real_time_learning
+    - stream_learning
+    - adaptive_systems
+
+- id: explainable-ai-xai
+  en:
+    term: Explainable AI (XAI)
+    definition: >
+      Methods and processes that make the behavior and decisions of AI systems
+      transparent, understandable, and auditable to human users.
+    pronunciation: "eks-PLAY-nuh-bul A-I"
+  zh:
+    term: 可解释人工智能
+    definition: >
+      可解释人工智能包括使 AI 系统的行为和决策透明、可理解、可审计的方法和过程。
+    pronunciation: "kě jiě shì rén gōng zhì néng"
+  topic: aiml
+  tags:
+    - machine_learning
+    - interpretability
+    - transparency
+    - model_explainability
+    - trustworthy_AI
+    - auditing
+
+- id: bootstrap-aggregating-bagging
+  en:
+    term: Bootstrap Aggregating (Bagging)
+    definition: >
+      An ensemble technique that trains multiple models on bootstrapped subsets
+      of data and aggregates their predictions to reduce variance.
+    pronunciation: "BOOTS-trap AG-ri-gay-ting"
+  zh:
+    term: 自助聚合（Bagging）
+    definition: >
+      自助聚合（Bagging）是一种集成技术，通过在自助采样的数据子集上训练多个模型并聚合预测来减少方差。
+    pronunciation: "zì zhù jù hé"
+  topic: aiml
+  tags:
+    - ensemble_learning
+    - bagging
+    - bootstrap
+    - variance_reduction
+    - machine_learning
+
+- id: ensemble-learning
+  en:
+    term: Ensemble Learning
+    definition: >
+      A paradigm where multiple models are trained and combined to improve
+      predictive performance, robustness, and generalization.
+    pronunciation: "on-SOM-bul LER-ning"
+  zh:
+    term: 集成学习
+    definition: >
+      集成学习是一种训练并组合多个模型以提高预测性能、鲁棒性和泛化能力的学习范式。
+    pronunciation: "jí chéng xué xí"
+  topic: aiml
+  tags:
+    - machine_learning
+    - ensemble_methods
+    - model_combination
+    - bagging
+    - boosting
+
+- id: tournament-selection
+  en:
+    term: Tournament Selection
+    definition: >
+      A selection method in evolutionary algorithms where a random subset of
+      individuals compete and the fittest is chosen.
+    pronunciation: "TOR-nuh-ment sel-EK-shun"
+  zh:
+    term: 锦标赛选择
+    definition: >
+      锦标赛选择是进化算法中的一种选择方法，从种群中随机选取若干个体竞争，并选择最优者。
+    pronunciation: "jǐn biāo sài xuǎn zé"
+  topic: aiml
+  tags:
+    - evolutionary_algorithm
+    - selection_method
+    - genetic_algorithm
+    - genetic_programming
+    - fitness_based_selection
+
+- id: parsimony-pressure
+  en:
+    term: Parsimony Pressure
+    definition: >
+      A technique in genetic programming that penalizes overly complex
+      solutions to control bloat and encourage simpler models.
+    pronunciation: "PAR-sih-moh-nee PRESH-ur"
+  zh:
+    term: 简约压力
+    definition: >
+      简约压力是遗传程序设计中用于惩罚过于复杂的解以控制膨胀并鼓励更简单模型的技术。
+    pronunciation: "jiǎn yuē yā lì"
+  topic: aiml
+  tags:
+    - genetic_programming
+    - evolutionary_algorithm
+    - bloat_control
+    - model_complexity
+    - regularization
+
+- id: bloat
+  en:
+    term: Bloat
+    definition: >
+      The uncontrolled growth of solution representations without corresponding
+      improvements in fitness, common in genetic programming.
+    pronunciation: "BLOHT"
+  zh:
+    term: 膨胀
+    definition: >
+      膨胀指解的表示形式不受控制地增长，而适应度却没有相应提高，是遗传程序设计中的常见问题。
+    pronunciation: "péng zhàng"
+  topic: aiml
+  tags:
+    - genetic_programming
+    - evolutionary_algorithm
+    - model_complexity
+    - overfitting
+    - optimization
+
+- id: underfitting
+  en:
+    term: Underfitting
+    definition: >
+      A model is too simple to capture underlying patterns in the data,
+      resulting in poor performance on both training and test sets.
+    pronunciation: "UN-der-fit-ing"
+  zh:
+    term: 欠拟合
+    definition: >
+      欠拟合指模型过于简单，无法捕捉数据中的潜在模式，导致训练集和测试集表现都较差。
+    pronunciation: "qiàn nǐ hé"
+  topic: aiml
+  tags:
+    - machine_learning
+    - model_evaluation
+    - bias
+    - generalization
+    - training_error
+
+- id: overfitting
+  en:
+    term: Overfitting
+    definition: >
+      A model learns noise and random fluctuations in the training data,
+      performing well on training data but poorly on unseen data.
+    pronunciation: "OH-ver-fit-ing"
+  zh:
+    term: 过拟合
+    definition: >
+      过拟合指模型不仅学习了训练数据中的模式，还学习了噪声和随机波动，导致泛化能力下降。
+    pronunciation: "guò nǐ hé"
+  topic: aiml
+  tags:
+    - machine_learning
+    - model_evaluation
+    - generalization
+    - bias_variance
+    - training_error
+
+- id: bias-variance-trade-off
+  en:
+    term: Bias-Variance Trade-off
+    definition: >
+      The tension between bias and variance as two sources of error in
+      predictive modeling.
+    pronunciation: "BY-us VAIR-ee-uns TRAYD-awf"
+  zh:
+    term: 偏差-方差权衡
+    definition: >
+      偏差-方差权衡描述预测模型中两类误差来源之间的张力：偏差和方差。
+    pronunciation: "piān chā fāng chā quán héng"
+  topic: aiml
+  tags:
+    - machine_learning
+    - model_evaluation
+    - generalization
+    - overfitting
+    - underfitting
+
+- id: generalization
+  en:
+    term: Generalization
+    definition: >
+      A model’s ability to perform well on unseen data drawn from the same
+      distribution as the training set.
+    pronunciation: "jen-er-uh-li-ZAY-shun"
+  zh:
+    term: 泛化能力
+    definition: >
+      泛化能力指模型在与训练数据同分布的未见数据上表现良好的能力。
+    pronunciation: "fàn huà néng lì"
+  topic: aiml
+  tags:
+    - machine_learning
+    - model_evaluation
+    - overfitting
+    - bias_variance
+    - generalization_error
+
+- id: mutation
+  en:
+    term: Mutation
+    definition: >
+      A genetic operator that introduces random variation into individuals to
+      maintain diversity and explore new areas of the search space.
+    pronunciation: "myoo-TAY-shun"
+  zh:
+    term: 变异
+    definition: >
+      变异是进化算法中的一种遗传操作符，通过引入随机变化来保持多样性并探索新的搜索空间。
+    pronunciation: "biàn yì"
+  topic: aiml
+  tags:
+    - evolutionary_algorithm
+    - genetic_programming
+    - genetic_algorithm
+    - variation_operator
+    - diversity
+
+- id: crossover
+  en:
+    term: Crossover
+    definition: >
+      A genetic operator that combines genetic information from two parents to
+      generate new offspring.
+    pronunciation: "KRAWS-oh-ver"
+  zh:
+    term: 交叉
+    definition: >
+      交叉是进化算法中的一种遗传操作符，通过组合两个父代的遗传信息来生成新的后代。
+    pronunciation: "jiāo chā"
+  topic: aiml
+  tags:
+    - evolutionary_algorithm
+    - genetic_programming
+    - genetic_algorithm
+    - recombination
+    - variation_operator
+
+- id: lexicase-selection
+  en:
+    term: Lexicase Selection
+    definition: >
+      A selection method that evaluates individuals case-by-case in random
+      order, filtering based on best performance per case.
+    pronunciation: "LEK-sih-kays sel-EK-shun"
+  zh:
+    term: 词例选择
+    definition: >
+      词例选择是一种选择方法，按随机顺序逐个测试案例评估个体，并基于每个案例的最佳表现进行筛选。
+    pronunciation: "cí lì xuǎn zé"
+  topic: aiml
+  tags:
+    - evolutionary_algorithm
+    - genetic_programming
+    - parent_selection
+    - non_aggregate_selection
+    - diversity_maintenance
+
+- id: fitness-function
+  en:
+    term: Fitness Function
+    definition: >
+      An objective function used in evolutionary algorithms to assign a
+      numerical score indicating how well a candidate solution meets the
+      optimization goals.
+    pronunciation: "FIT-ness FUNK-shun"
+  zh:
+    term: 适应度函数
+    definition: >
+      适应度函数是进化算法中用于评估候选解满足优化目标程度的目标函数。
+    pronunciation: "shì yìng dù hán shù"
+  topic: aiml
+  tags:
+    - evolutionary_algorithm
+    - optimization
+    - objective_function
+    - genetic_programming
+    - genetic_algorithm
+
+- id: expression-tree
+  en:
+    term: Expression Tree
+    definition: >
+      A tree data structure representing mathematical expressions, where leaf
+      nodes are operands and internal nodes are operators or functions.
+    pronunciation: "eks-PRESH-un TREE"
+  zh:
+    term: 表达式树
+    definition: >
+      表达式树是一种用于表示数学表达式的树形数据结构，叶节点为操作数，内部节点为运算符或函数。
+    pronunciation: "biǎo dá shì shù"
+  topic: aiml
+  tags:
+    - data_structure
+    - symbolic_regression
+    - compilers
+    - AST
+    - expression_parsing
+
+- id: monte-carlo-tree-search-mcts
+  en:
+    term: Monte Carlo Tree Search (MCTS)
+    definition: >
+      A heuristic search algorithm that uses Monte Carlo simulations and
+      selective node expansion to explore large decision spaces, guided by the
+      UCT criterion.
+    pronunciation: "MON-tee KAR-lo TREE SIRCH"
+  zh:
+    term: 蒙特卡洛树搜索（MCTS）
+    definition: >
+      蒙特卡洛树搜索（MCTS）是一种启发式搜索算法，通过蒙特卡洛模拟和选择性节点扩展，
+      在巨大的决策空间中进行探索，并由 UCT 准则指导。
+    pronunciation: "méng tè kǎ luò shù sōu suǒ"
+  topic: aiml
+  tags:
+    - search_algorithm
+    - heuristic_search
+    - game_ai
+    - probabilistic
+    - UCT
+    - tree_search
+
