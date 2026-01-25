@@ -1,0 +1,111 @@
+{
+  "registry_version": 2,
+  "description": "Governance-grade schema registry for the Knowledge Ecosystem. Defines required fields, identifier formats, allowed values, and foreign-key relationships for all canonical datasets.",
+
+  "status_transitions": {
+    "backlog": ["in_progress"],
+    "in_progress": ["review"],
+    "review": ["done"],
+    "done": []
+  },
+
+  "schemas": {
+    "sprints": {
+      "schema_version": 1,
+      "id_pattern": "^S\\d{2}$",
+      "required_fields": [
+        "sprint_id",
+        "name",
+        "start_date",
+        "end_date",
+        "status"
+      ],
+      "status_values": [
+        "planned",
+        "active",
+        "closed"
+      ],
+      "notes": "Sprint identifiers follow WBS-style zero-padded numbering."
+    },
+
+    "issues": {
+      "schema_version": 1,
+      "id_pattern": "^S\\d{2}\\.I\\d{2}$",
+      "required_fields": [
+        "issue_id",
+        "sprint_id",
+        "title",
+        "status"
+      ],
+      "status_values": [
+        "backlog",
+        "in_progress",
+        "done"
+      ],
+      "status_history": {
+        "type": "array",
+        "description": "Ordered list of status transitions with timestamps",
+        "items": {
+          "type": "object",
+          "required": ["from", "to", "timestamp"],
+          "properties": {
+            "from": { "type": "string" },
+            "to": { "type": "string" },
+            "timestamp": { "type": "string", "format": "date-time" }
+          }
+        }
+      },
+      "foreign_keys": {
+        "sprint_id": "sprints.sprint_id"
+      },
+      "notes": "Issues inherit sprint lineage and must reference an existing sprint."
+    },
+
+    "tasks": {
+      "schema_version": 1,
+      "id_pattern": "^S\\d{2}\\.I\\d{2}\\.T\\d{2}$",
+      "required_fields": [
+        "task_id",
+        "issue_id",
+        "sprint_id",
+        "title",
+        "status"
+      ],
+      "status_values": [
+        "backlog",
+        "in_progress",
+        "done"
+      ],
+      "status_history": {
+        "type": "array",
+        "description": "Ordered list of status transitions with timestamps",
+        "items": {
+          "type": "object",
+          "required": ["from", "to", "timestamp"],
+          "properties": {
+            "from": { "type": "string" },
+            "to": { "type": "string" },
+            "timestamp": { "type": "string", "format": "date-time" }
+          }
+        }
+      },
+      "foreign_keys": {
+        "issue_id": "issues.issue_id",
+        "sprint_id": "sprints.sprint_id"
+      },
+      "notes": "Tasks inherit both issue and sprint lineage. sprint_id must match the sprint of the referenced issue."
+    }
+  },
+
+  "evolution": [
+    {
+      "version": 1,
+      "changes": "Initial schema definitions for sprints, issues, and tasks. Establishes identifier formats, required fields, status values, and foreign-key relationships."
+    },
+    {
+      "version": 2,
+      "changes": "Added global status_transitions and status_history field for issues and tasks to support kanban-style workflow tracking."
+    }
+  ]
+}
+

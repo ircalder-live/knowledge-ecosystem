@@ -79,15 +79,58 @@ These results enable us to recover Sprint 03 in a technologically and methodolog
 A table capturing the fate of each original scope item.
 
 4.1 Scope Item Status Table
-Original Scope Item	Status	Notes
-GitHub metrics extractor	Deprecated	Replaced by local-first telemetry
-Dashboard generator	Refactored	Notebook-based visualization
-Governance report	Deferred	Candidate for Sprint 04
-MLflow integration	Achieved	Now foundational
-AzureML integration	Deferred	Out of Sprint 03 scope
-Governance Automation domain	In progress	Local scaffolding
-Domain artifacts	Deferred	To Sprint 04
-Documentation hygiene	Achieved	Ongoing
+<table>
+  <thead>
+    <tr>
+      <th>Original Scope Item</th>
+      <th>Status</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GitHub metrics extractor</td>
+      <td>Deprecated</td>
+      <td>Replaced by local-first telemetry</td>
+    </tr>
+    <tr>
+      <td>Dashboard generator</td>
+      <td>Refactored</td>
+      <td>Notebook-based visualization</td>
+    </tr>
+    <tr>
+      <td>Governance report</td>
+      <td>Deferred</td>
+      <td>Candidate for Sprint 04</td>
+    </tr>
+    <tr>
+      <td>MLflow integration</td>
+      <td>Achieved</td>
+      <td>Now foundational</td>
+    </tr>
+    <tr>
+      <td>AzureML integration</td>
+      <td>Deferred</td>
+      <td>Out of Sprint 03 scope</td>
+    </tr>
+    <tr>
+      <td>Governance Automation domain</td>
+      <td>In progress</td>
+      <td>Local scaffolding</td>
+    </tr>
+    <tr>
+      <td>Domain artifacts</td>
+      <td>Deferred</td>
+      <td>To Sprint 04</td>
+    </tr>
+    <tr>
+      <td>Documentation hygiene</td>
+      <td>Achieved</td>
+      <td>Ongoing</td>
+    </tr>
+  </tbody>
+</table>
+
 5. Updated Risk Assessment
 Re-evaluate the original risks:
 
